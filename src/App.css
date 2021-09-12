@@ -1,0 +1,17 @@
+
+.App {
+    background-color: #282c34;
+    opacity: 0.9;
+    color: white;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    background-size: cover;
+    text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .App {
+    width: 100%;
+  }
+}

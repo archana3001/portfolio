@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  font-family:monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.column{
+  flex-direction: column;
+  color: #00FFFF;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}
+h2{
+  color: #89CFF0;
+  font-style: oblique;
+}
+
+p{
+  color: #F0FFFF;
+}

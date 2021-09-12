@@ -1,0 +1,25 @@
+.link-modify{
+  border-radius: 2px 10px;
+  border-color: #000080;
+ background-color:  #000080;
+  border: 1px solid #aa8d56;
+  padding: 20px;
+  align-items: flex-end;
+}
+row {
+  display: flex;
+  flex-direction: row;
+  font-family:monospace;
+  color: #F0FFFF;
+  margin-left: 10%;
+}
+.column{
+  flex-direction: column;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}

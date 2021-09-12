@@ -1,0 +1,44 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  font-family:monospace;
+  color: #F0FFFF;
+  margin-left: 10%;
+}
+.column{
+  flex-direction: column;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}
+
+.container {
+  padding: 2px 20px;
+  display: inline;
+  align-content: center;
+    color: #87CEEB;
+}
+.card {
+  box-shadow: 0 4px 8px 0 #ADD8E6;
+  transition: 0.3s;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  align-content: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #B6D0E2;
+}
+.cardimage{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    display: inline-block;
+}
+h4{
+  color: #191970;
+}

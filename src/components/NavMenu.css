@@ -1,0 +1,49 @@
+/*Strip the ul of padding and list styling*/
+.navcreate{
+  float: left;
+  width: 20%;
+    text-align: center;
+}
+ul {
+    list-style-type:none;
+    padding:0;
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+color: #ADD8E6;
+
+}
+
+/*Create a horizontal list with spacing*/
+ul>li {
+    display:inline-block;
+    margin-right: 3px;
+    transition: 0.3s ease background-color;
+    text-decoration: none;
+}
+ul> li:hover{
+  border: 10px;
+  border-radius: 8px;
+    background-color:  #ADD8E6;
+       text-decoration: none;
+}
+a,a:hover, a:focus{
+   text-decoration: none;
+  padding: 1rem 2rem;
+   font-size: 2rem;
+  color: grey;
+  border: 10px;
+}
+a:active, a:focus{
+   text-decoration: none;
+  color: white;
+  border: 12px;
+}
+
+@media (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+}
